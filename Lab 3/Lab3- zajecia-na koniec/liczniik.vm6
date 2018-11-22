@@ -1,0 +1,243 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL44PC | XC9572XL-10-PC44
+
+DEVICE | 9572XL | 9572XL44PC | 
+
+NETWORK | liczniik | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | Ce_IBUF | liczniik_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Ce | 381 | PI | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Ce_IBUF | 369 | ? | 66 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | Ce_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | zegarek_IBUF | liczniik_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | zegarek | 382 | PI | 55 | 0 | liczniik_COPY_0_COPY_0 | PERIOD_zegarek;PERIOD_zegarek | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | zegarek_IBUF/FCLK | 370 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zegarek_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | zerowanie_IBUF | liczniik_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | zerowanie | 383 | PI | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | zerowanie_IBUF | 371 | ? | 65 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zerowanie_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | q2_OBUF | liczniik_COPY_0_COPY_0 | 2155873280 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q2_OBUF | 373 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q2_OBUF.Q | q2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q1_OBUF | 377 | ? | 61 | 0 | liczniik_COPY_0_COPY_0 | NULL | q1_OBUF.Q | q1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q3_OBUF | 375 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q3_OBUF.Q | q3_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | zerowanie_IBUF | 371 | ? | 65 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zerowanie_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ce_IBUF | 369 | ? | 66 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | Ce_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | zegarek_IBUF/FCLK | 370 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zegarek_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | q2_OBUF$Q | 372 | ? | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | q2_OBUF.Q | q2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | q2_OBUF | 373 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q2_OBUF.Q | q2_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | q2_OBUF.SI | q2_OBUF | 0 | 5 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q2_OBUF | 373 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q2_OBUF.Q | q2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q1_OBUF | 377 | ? | 61 | 0 | liczniik_COPY_0_COPY_0 | NULL | q1_OBUF.Q | q1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q3_OBUF | 375 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q3_OBUF.Q | q3_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | zerowanie_IBUF | 371 | ? | 65 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zerowanie_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ce_IBUF | 369 | ? | 66 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | Ce_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | q2_OBUF.D1 | 385 | ? | 57 | 4096 | q2_OBUF | NULL | NULL | q2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | q2_OBUF.D2 | 386 | ? | 57 | 4096 | q2_OBUF | NULL | NULL | q2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | q2_OBUF | IV_FALSE | q1_OBUF
+SPPTERM | 2 | IV_FALSE | q3_OBUF | IV_TRUE | q1_OBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | q2_OBUF.RSTF | 387 | ? | 59 | 4096 | q2_OBUF | NULL | NULL | q2_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_TRUE | zerowanie_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | q2_OBUF.CE | 388 | ? | 60 | 4096 | q2_OBUF | NULL | NULL | q2_OBUF.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ce_IBUF
+
+SRFF_INSTANCE | q2_OBUF.REG | q2_OBUF | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | q2_OBUF.D | 384 | ? | 57 | 0 | q2_OBUF | NULL | NULL | q2_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | zegarek_IBUF/FCLK | 370 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zegarek_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | q2_OBUF.RSTF | 387 | ? | 59 | 4096 | q2_OBUF | NULL | NULL | q2_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_TRUE | zerowanie_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | q2_OBUF.CE | 388 | ? | 60 | 4096 | q2_OBUF | NULL | NULL | q2_OBUF.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ce_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | q2_OBUF.Q | 389 | ? | 64 | 0 | q2_OBUF | NULL | NULL | q2_OBUF.REG | 0 | 8 | SRFF_Q
+TNAME | PERIOD_zegarek
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | q3_OBUF | liczniik_COPY_0_COPY_0 | 2155873280 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q2_OBUF | 373 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q2_OBUF.Q | q2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q3_OBUF | 375 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q3_OBUF.Q | q3_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q1_OBUF | 377 | ? | 61 | 0 | liczniik_COPY_0_COPY_0 | NULL | q1_OBUF.Q | q1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | zerowanie_IBUF | 371 | ? | 65 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zerowanie_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ce_IBUF | 369 | ? | 66 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | Ce_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | zegarek_IBUF/FCLK | 370 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zegarek_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | q3_OBUF$Q | 374 | ? | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | q3_OBUF.Q | q3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | q3_OBUF | 375 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q3_OBUF.Q | q3_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | q3_OBUF.SI | q3_OBUF | 0 | 5 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q2_OBUF | 373 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q2_OBUF.Q | q2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q3_OBUF | 375 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q3_OBUF.Q | q3_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q1_OBUF | 377 | ? | 61 | 0 | liczniik_COPY_0_COPY_0 | NULL | q1_OBUF.Q | q1_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | zerowanie_IBUF | 371 | ? | 65 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zerowanie_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ce_IBUF | 369 | ? | 66 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | Ce_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | q3_OBUF.D1 | 391 | ? | 61 | 4096 | q3_OBUF | NULL | NULL | q3_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | q3_OBUF.D2 | 392 | ? | 61 | 4096 | q3_OBUF | NULL | NULL | q3_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | q2_OBUF | IV_TRUE | q3_OBUF
+SPPTERM | 2 | IV_TRUE | q2_OBUF | IV_FALSE | q1_OBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | q3_OBUF.RSTF | 393 | ? | 62 | 4096 | q3_OBUF | NULL | NULL | q3_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_TRUE | zerowanie_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | q3_OBUF.CE | 394 | ? | 63 | 4096 | q3_OBUF | NULL | NULL | q3_OBUF.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ce_IBUF
+
+SRFF_INSTANCE | q3_OBUF.REG | q3_OBUF | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | q3_OBUF.D | 390 | ? | 61 | 0 | q3_OBUF | NULL | NULL | q3_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | zegarek_IBUF/FCLK | 370 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zegarek_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | q3_OBUF.RSTF | 393 | ? | 62 | 4096 | q3_OBUF | NULL | NULL | q3_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_TRUE | zerowanie_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | q3_OBUF.CE | 394 | ? | 63 | 4096 | q3_OBUF | NULL | NULL | q3_OBUF.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ce_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | q3_OBUF.Q | 395 | ? | 64 | 0 | q3_OBUF | NULL | NULL | q3_OBUF.REG | 0 | 8 | SRFF_Q
+TNAME | PERIOD_zegarek
+
+MACROCELL_INSTANCE | Inv+PrldLow+OptxMapped | q1_OBUF | liczniik_COPY_0_COPY_0 | 2155873536 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q2_OBUF | 373 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q2_OBUF.Q | q2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q3_OBUF | 375 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q3_OBUF.Q | q3_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | zerowanie_IBUF | 371 | ? | 65 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zerowanie_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ce_IBUF | 369 | ? | 66 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | Ce_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | zegarek_IBUF/FCLK | 370 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zegarek_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | q1_OBUF$Q | 376 | ? | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | q1_OBUF.Q | q1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | q1_OBUF | 377 | ? | 61 | 0 | liczniik_COPY_0_COPY_0 | NULL | q1_OBUF.Q | q1_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | q1_OBUF.SI | q1_OBUF | 0 | 4 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q2_OBUF | 373 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q2_OBUF.Q | q2_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q3_OBUF | 375 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | q3_OBUF.Q | q3_OBUF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | zerowanie_IBUF | 371 | ? | 65 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zerowanie_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ce_IBUF | 369 | ? | 66 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | Ce_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | q1_OBUF.D1 | 397 | ? | 64 | 4096 | q1_OBUF | NULL | NULL | q1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | q2_OBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | q1_OBUF.D2 | 398 | ? | 64 | 4096 | q1_OBUF | NULL | NULL | q1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | q3_OBUF
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | q1_OBUF.RSTF | 399 | ? | 65 | 4096 | q1_OBUF | NULL | NULL | q1_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_TRUE | zerowanie_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | q1_OBUF.CE | 400 | ? | 66 | 4096 | q1_OBUF | NULL | NULL | q1_OBUF.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ce_IBUF
+
+SRFF_INSTANCE | q1_OBUF.REG | q1_OBUF | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | q1_OBUF.D | 396 | ? | 64 | 0 | q1_OBUF | NULL | NULL | q1_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | zegarek_IBUF/FCLK | 370 | ? | 64 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | zegarek_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | q1_OBUF.RSTF | 399 | ? | 65 | 4096 | q1_OBUF | NULL | NULL | q1_OBUF.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_TRUE | zerowanie_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | q1_OBUF.CE | 400 | ? | 66 | 4096 | q1_OBUF | NULL | NULL | q1_OBUF.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ce_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | q1_OBUF.Q | 401 | ? | 61 | 0 | q1_OBUF | NULL | NULL | q1_OBUF.REG | 0 | 8 | SRFF_Q
+TNAME | PERIOD_zegarek
+
+OUTPUT_INSTANCE | 0 | q2 | liczniik_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | q2_OBUF$Q | 372 | ? | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | q2_OBUF.Q | q2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | q2 | 378 | PO | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | q2 | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | q3 | liczniik_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | q3_OBUF$Q | 374 | ? | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | q3_OBUF.Q | q3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | q3 | 379 | PO | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | q3 | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | q1 | liczniik_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | q1_OBUF$Q | 376 | ? | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | q1_OBUF.Q | q1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | q1 | 380 | PO | 0 | 0 | liczniik_COPY_0_COPY_0 | NULL | NULL | q1 | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | liczniik_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 14 | NULL | 0 | zegarek_IBUF | 0 | NULL | 0 | 7 | 57344
+
+FB_INSTANCE | FOOBAR2_ | liczniik_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | q3_OBUF | 1 | NULL | 0 | q3 | 1 | 35 | 49152
+FBPIN | 11 | NULL | 0 | Ce_IBUF | 1 | NULL | 0 | 40 | 53248
+FBPIN | 14 | NULL | 0 | zerowanie_IBUF | 1 | NULL | 0 | 42 | 53248
+
+FB_INSTANCE | FOOBAR3_ | liczniik_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR4_ | liczniik_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 14 | q2_OBUF | 1 | NULL | 0 | q2 | 1 | 29 | 49152
+FBPIN | 15 | q1_OBUF | 1 | NULL | 0 | q1 | 1 | 33 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | liczniik_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 1 | q3_OBUF | NULL | 13 | q2_OBUF | NULL | 23 | q1_OBUF | NULL | 42 | zerowanie | 42 | 49 | Ce | 40
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | 19 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 67 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 68 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 98 | -1 | -1 | -1 | -1 | -1 | -1 | 92 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR4_ | 1 | q3_OBUF | NULL | 13 | q2_OBUF | NULL | 23 | q1_OBUF | NULL | 42 | zerowanie | 42 | 49 | Ce | 40
+
+FB_IMUX_INDEX | FOOBAR4_ | -1 | 19 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 67 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 68 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 98 | -1 | -1 | -1 | -1 | -1 | -1 | 92 | -1 | -1 | -1 | -1
+
+
+GLOBAL_FCLK | zegarek | 2 | 2
+
+TIME_TSPEC | TS1000 | PERIOD:PERIOD_zegarek:5000000.000nS:HIGH:50.000000000:% | PERIOD_zegarek | 10003 | 50000000 | 500 | NULL

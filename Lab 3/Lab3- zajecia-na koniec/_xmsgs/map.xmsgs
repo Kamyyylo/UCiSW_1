@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="MapLib" num="30" delta="old" ><arg fmt="%s" index="1">LOC</arg> constraint <arg fmt="%s" index="2">P40</arg> on <arg fmt="%s" index="3">Ce</arg> is invalid: <arg fmt="%z" index="4">No such site on the device.</arg> To bypass this error set the environment variable &apos;XIL_MAP_LOCWARN&apos;.
+</msg>
+
+<msg type="error" file="MapLib" num="30" delta="old" ><arg fmt="%s" index="1">LOC</arg> constraint <arg fmt="%s" index="2">P42</arg> on <arg fmt="%s" index="3">zerowanie</arg> is invalid: <arg fmt="%z" index="4">No such site on the device.</arg> To bypass this error set the environment variable &apos;XIL_MAP_LOCWARN&apos;.
+</msg>
+
+<msg type="error" file="MapLib" num="30" delta="old" ><arg fmt="%s" index="1">LOC</arg> constraint <arg fmt="%s" index="2">P33</arg> on <arg fmt="%s" index="3">q1</arg> is invalid: <arg fmt="%z" index="4">No such site on the device.</arg> To bypass this error set the environment variable &apos;XIL_MAP_LOCWARN&apos;.
+</msg>
+
+<msg type="error" file="MapLib" num="30" delta="old" ><arg fmt="%s" index="1">LOC</arg> constraint <arg fmt="%s" index="2">P29</arg> on <arg fmt="%s" index="3">q2</arg> is invalid: <arg fmt="%z" index="4">No such site on the device.</arg> To bypass this error set the environment variable &apos;XIL_MAP_LOCWARN&apos;.
+</msg>
+
+<msg type="error" file="MapLib" num="30" delta="old" ><arg fmt="%s" index="1">LOC</arg> constraint <arg fmt="%s" index="2">P35</arg> on <arg fmt="%s" index="3">q3</arg> is invalid: <arg fmt="%z" index="4">No such site on the device.</arg> To bypass this error set the environment variable &apos;XIL_MAP_LOCWARN&apos;.
+</msg>
+
+</messages>
+

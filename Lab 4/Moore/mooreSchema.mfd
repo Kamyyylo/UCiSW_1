@@ -1,0 +1,61 @@
+MDF Database:  version 1.0
+MDF_INFO | mooreSchema | XC9572XL-10-PC44
+MACROCELL | 3 | 10 | Q0_OBUF
+ATTRIBUTES | 4621138 | 0
+OUTPUTMC | 4 | 3 | 10 | 3 | 7 | 3 | 4 | 1 | 1
+INPUTS | 6 | Q0  | Q1  | Z0  | Q2  | Clr  | Ce
+INPUTMC | 3 | 3 | 10 | 3 | 7 | 3 | 4
+INPUTP | 3 | 7 | 9 | 3
+EQ | 6 | 
+   !Q0.T = Q0 & Q1 & !Z0
+	# Q0 & Q2 & !Z0
+	# !Q1 & !Q2 & Z0;
+   Q0.CLK = clk;	// GCK
+   Q0.AR = Clr;
+   Q0.CE = Ce;
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 3 | 7 | Q1_OBUF
+ATTRIBUTES | 8815442 | 0
+OUTPUTMC | 4 | 3 | 10 | 3 | 7 | 3 | 4 | 1 | 1
+INPUTS | 6 | Q0  | Q1  | Z0  | Q2  | Clr  | Ce
+INPUTMC | 3 | 3 | 10 | 3 | 7 | 3 | 4
+INPUTP | 3 | 7 | 9 | 3
+EQ | 5 | 
+   Q1.D = !Q0 & Q1 & !Z0
+	# Q0 & !Q1 & !Q2 & !Z0;
+   Q1.CLK = clk;	// GCK
+   Q1.AR = Clr;
+   Q1.CE = Ce;
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 3 | 4 | Q2_OBUF
+ATTRIBUTES | 8815442 | 0
+OUTPUTMC | 4 | 3 | 10 | 3 | 7 | 3 | 4 | 1 | 1
+INPUTS | 6 | Q0  | Q1  | Z0  | Q2  | Clr  | Ce
+INPUTMC | 3 | 3 | 10 | 3 | 7 | 3 | 4
+INPUTP | 3 | 7 | 9 | 3
+EQ | 5 | 
+   Q2.D = Q0 & Q1 & Z0
+	# !Q0 & Q2 & Z0;
+   Q2.CLK = clk;	// GCK
+   Q2.AR = Clr;
+   Q2.CE = Ce;
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 1 | 1 | Y0_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | Q0  | Q2  | Q1
+INPUTMC | 3 | 3 | 10 | 3 | 4 | 3 | 7
+EQ | 2 | 
+   Y0 = Q0 & Q2
+	# Q1 & Q2;
+
+PIN | Ce | 64 | 0 | N/A | 3 | 3 | 3 | 10 | 3 | 7 | 3 | 4
+PIN | clk | 4096 | 0 | N/A | 20 | 3 | 3 | 10 | 3 | 7 | 3 | 4
+PIN | Clr | 64 | 0 | N/A | 9 | 3 | 3 | 10 | 3 | 7 | 3 | 4
+PIN | Z0 | 64 | 0 | N/A | 7 | 3 | 3 | 10 | 3 | 7 | 3 | 4
+PIN | Q0 | 536871040 | 0 | N/A | 68
+PIN | Q1 | 536871040 | 0 | N/A | 65
+PIN | Q2 | 536871040 | 0 | N/A | 63
+PIN | Y0 | 536871040 | 0 | N/A | 87

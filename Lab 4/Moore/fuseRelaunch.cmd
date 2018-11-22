@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema_mooreSchema_sch_tb_isim_beh.exe" -prj "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema_mooreSchema_sch_tb_beh.prj" "work.mooreSchema_mooreSchema_sch_tb" 

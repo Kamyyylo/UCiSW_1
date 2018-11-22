@@ -1,0 +1,36 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FTCPE_Q0: FTCPE port map (Q0,Q0_T,clk,Clr,'0',Ce);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Q0_T <= ((Q0 AND Q1 AND NOT Z0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Q0 AND Q2 AND NOT Z0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Q1 AND NOT Q2 AND Z0));
+</td></tr><tr><td>
+FDCPE_Q1: FDCPE port map (Q1,Q1_D,clk,Clr,'0',Ce);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Q1_D <= ((NOT Q0 AND Q1 AND NOT Z0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Q0 AND NOT Q1 AND NOT Q2 AND NOT Z0));
+</td></tr><tr><td>
+FDCPE_Q2: FDCPE port map (Q2,Q2_D,clk,Clr,'0',Ce);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Q2_D <= ((Q0 AND Q1 AND Z0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Q0 AND Q2 AND Z0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Y0 <= ((Q0 AND Q2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Q1 AND Q2));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

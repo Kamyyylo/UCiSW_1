@@ -1,0 +1,17 @@
+V3 18
+FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.vhf" 2018/11/07.09:57:26 P.20131013
+EN work/OR6_MXILINX_mooreSchema 1541581049 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OR6_MXILINX_mooreSchema/BEHAVIORAL 1541581050 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.vhf" \
+      EN work/OR6_MXILINX_mooreSchema 1541581049 CP OR4 CP OR3
+EN work/mooreSchema 1541581051 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/mooreSchema/BEHAVIORAL 1541581052 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.vhf" \
+      EN work/mooreSchema 1541581051 CP FDCE CP AND3 CP AND3B1 CP AND3B2 CP AND4B3 \
+      CP AND2B2 CP AND4B2 CP OR2 CP OR6_MXILINX_mooreSchema CP AND2

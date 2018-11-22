@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 liczniik.ngc liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 liczniik.ngc liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 liczniik.ngc liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 liczniik.ngc liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 liczniik.ngc liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 

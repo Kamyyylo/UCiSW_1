@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 liczniik.ngc liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 liczniik.ngc liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 liczniik.ngc liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 liczniik.ngc liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 liczniik.ngc liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 "liczniik.ngc" liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZL-9572.ucf -p xa6slx4-csg225-3 "liczniik.ngc" liczniik.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o liczniik_map.ncd liczniik.ngd liczniik.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572-PC44-7 "liczniik.ngc" liczniik.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 "liczniik.ngc" liczniik.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "liczniik.ngc" liczniik.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "liczniik.ngc" liczniik.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "liczniik.ngc" liczniik.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper liczniik.ngd 
+XSLTProcess liczniik_build.xml 
+tsim -intstyle ise liczniik liczniik.nga 
+taengine -intstyle ise -f liczniik -w --format html1 -l liczniik_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n liczniik -i liczniik 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.xst" -ofn "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "liczniik.ngc" liczniik.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "liczniik.ngc" liczniik.ngd  

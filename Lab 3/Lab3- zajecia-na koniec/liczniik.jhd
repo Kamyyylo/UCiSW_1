@@ -1,0 +1,3 @@
+MODULE liczniik
+	SUBMODULE HexTo7Seg
+		INSTANCE XLXI_24

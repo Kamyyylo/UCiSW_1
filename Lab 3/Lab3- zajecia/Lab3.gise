@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="liczniik.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="liczniik.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="liczniik.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="liczniik.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="liczniik.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="liczniik.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="liczniik.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="liczniik.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="liczniik.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="liczniik.syr"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="liczniik.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="liczniik.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="liczniik_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="liczniik_liczniik_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="liczniik_liczniik_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="liczniik_liczniik_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="liczniik_liczniik_sch_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="liczniik_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="liczniik_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="liczniik_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="liczniik_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="liczniik_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="liczniik_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1539146859" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1539146859">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365903" xil_pn:in_ck="4617389668" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1540365903">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="sa.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1539146908" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3924954715693910098" xil_pn:start_ts="1539146908">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365783" xil_pn:in_ck="5624134443613237865" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5462880354821934022" xil_pn:start_ts="1540365780">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="liczniik.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1539146910" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3844287816360508099" xil_pn:start_ts="1539146910">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365907" xil_pn:in_ck="1580113718759220595" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1540365907">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="liczniik.vhf"/>
+      <outfile xil_pn:name="sa.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365913" xil_pn:in_ck="1580113718759220595" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6608316331274139696" xil_pn:start_ts="1540365907">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="liczniik_liczniik_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="liczniik_liczniik_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365913" xil_pn:in_ck="-6133543960130864966" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="922962124711073725" xil_pn:start_ts="1540365913">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="liczniik_liczniik_sch_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365200" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1540365200">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540366010" xil_pn:in_ck="5624134443613237865" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3090749931026723126" xil_pn:start_ts="1540366009">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="liczniik.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365204" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3844287816360508099" xil_pn:start_ts="1540365204">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365204" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1540365204">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365204" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5110488740772884650" xil_pn:start_ts="1540365204">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365204" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="6075245583379680512" xil_pn:start_ts="1540365204">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540365204" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3820884180038458355" xil_pn:start_ts="1540365204">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540366018" xil_pn:in_ck="5624134443613241295" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="2353057188968400233" xil_pn:start_ts="1540366010">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="liczniik.jhd"/>
+      <outfile xil_pn:name="liczniik.lso"/>
+      <outfile xil_pn:name="liczniik.ngc"/>
+      <outfile xil_pn:name="liczniik.ngr"/>
+      <outfile xil_pn:name="liczniik.prj"/>
+      <outfile xil_pn:name="liczniik.stx"/>
+      <outfile xil_pn:name="liczniik.syr"/>
+      <outfile xil_pn:name="liczniik.xst"/>
+      <outfile xil_pn:name="liczniik_liczniik_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="liczniik_liczniik_sch_tb_stx_beh.prj"/>
+      <outfile xil_pn:name="liczniik_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1540366599" xil_pn:in_ck="141435169788748278" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4784893883189433759" xil_pn:start_ts="1540366599">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540366604" xil_pn:in_ck="-6058615431478304615" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6575992299826746491" xil_pn:start_ts="1540366599">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="liczniik.bld"/>
+      <outfile xil_pn:name="liczniik.ngd"/>
+      <outfile xil_pn:name="liczniik_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1540366609" xil_pn:in_ck="-6058615431478304614" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="6289270943427689258" xil_pn:start_ts="1540366604">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="liczniik_map.map"/>
+      <outfile xil_pn:name="liczniik_map.mrp"/>
+      <outfile xil_pn:name="liczniik_map.ngm"/>
+    </transform>
+  </transforms>
+
+</generated_project>

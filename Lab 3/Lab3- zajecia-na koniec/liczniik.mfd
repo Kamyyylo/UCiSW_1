@@ -1,0 +1,50 @@
+MDF Database:  version 1.0
+MDF_INFO | liczniik | XC9572XL-10-PC44
+MACROCELL | 3 | 13 | q2_OBUF
+ATTRIBUTES | 8815442 | 0
+OUTPUTMC | 3 | 3 | 13 | 1 | 1 | 3 | 14
+INPUTS | 5 | q2  | q1  | q3  | zerowanie  | Ce
+INPUTMC | 3 | 3 | 13 | 3 | 14 | 1 | 1
+INPUTP | 2 | 7 | 3
+EQ | 5 | 
+   q2.D = q2 & !q1
+	# !q3 & q1;
+   q2.CLK = zegarek;	// GCK
+   q2.AR = zerowanie;
+   q2.CE = Ce;
+GLOBALS | 1 | 2 | zegarek
+
+MACROCELL | 1 | 1 | q3_OBUF
+ATTRIBUTES | 8815442 | 0
+OUTPUTMC | 3 | 3 | 13 | 1 | 1 | 3 | 14
+INPUTS | 5 | q2  | q3  | q1  | zerowanie  | Ce
+INPUTMC | 3 | 3 | 13 | 1 | 1 | 3 | 14
+INPUTP | 2 | 7 | 3
+EQ | 5 | 
+   q3.D = q2 & q3
+	# q2 & !q1;
+   q3.CLK = zegarek;	// GCK
+   q3.AR = zerowanie;
+   q3.CE = Ce;
+GLOBALS | 1 | 2 | zegarek
+
+MACROCELL | 3 | 14 | q1_OBUF
+ATTRIBUTES | 8815442 | 0
+OUTPUTMC | 2 | 3 | 13 | 1 | 1
+INPUTS | 4 | q2  | q3  | zerowanie  | Ce
+INPUTMC | 2 | 3 | 13 | 1 | 1
+INPUTP | 2 | 7 | 3
+EQ | 5 | 
+   !q1.D = q2
+	$ q3;
+   q1.CLK = zegarek;	// GCK
+   q1.AR = zerowanie;
+   q1.CE = Ce;
+GLOBALS | 1 | 2 | zegarek
+
+PIN | Ce | 64 | 0 | N/A | 3 | 3 | 3 | 13 | 1 | 1 | 3 | 14
+PIN | zegarek | 16384 | 0 | N/A | 24 | 3 | 3 | 13 | 1 | 1 | 3 | 14
+PIN | zerowanie | 64 | 0 | N/A | 7 | 3 | 3 | 13 | 1 | 1 | 3 | 14
+PIN | q2 | 536871040 | 0 | N/A | 72
+PIN | q3 | 536871040 | 0 | N/A | 87
+PIN | q1 | 536871040 | 0 | N/A | 82

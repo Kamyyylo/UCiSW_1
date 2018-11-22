@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 "mooreSchema.ngc" mooreSchema.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper mooreSchema.ngd 
+XSLTProcess mooreSchema_build.xml 
+tsim -intstyle ise mooreSchema mooreSchema.nga 
+taengine -intstyle ise -f mooreSchema -w --format html1 -l mooreSchema_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n mooreSchema -i mooreSchema 
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 "mooreSchema.ngc" mooreSchema.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper mooreSchema.ngd 
+XSLTProcess mooreSchema_build.xml 
+tsim -intstyle ise mooreSchema mooreSchema.nga 
+hprep6 -s IEEE1149 -n mooreSchema -i mooreSchema 
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "mooreSchema.ngc" mooreSchema.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper mooreSchema.ngd 
+XSLTProcess mooreSchema_build.xml 
+tsim -intstyle ise mooreSchema mooreSchema.nga 
+hprep6 -s IEEE1149 -n mooreSchema -i mooreSchema 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "mooreSchema.ngc" mooreSchema.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper mooreSchema.ngd 
+XSLTProcess mooreSchema_build.xml 
+tsim -intstyle ise mooreSchema mooreSchema.nga 
+hprep6 -s IEEE1149 -n mooreSchema -i mooreSchema 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "mooreSchema.ngc" mooreSchema.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper mooreSchema.ngd 
+XSLTProcess mooreSchema_build.xml 
+tsim -intstyle ise mooreSchema mooreSchema.nga 
+hprep6 -s IEEE1149 -n mooreSchema -i mooreSchema 
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab4/Moore/mooreSchema.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "mooreSchema.ngc" mooreSchema.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper mooreSchema.ngd 
+XSLTProcess mooreSchema_build.xml 
+tsim -intstyle ise mooreSchema mooreSchema.nga 
+hprep6 -s IEEE1149 -n mooreSchema -i mooreSchema 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "mooreSchema.ngc" mooreSchema.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper mooreSchema.ngd 
+XSLTProcess mooreSchema_build.xml 
+tsim -intstyle ise mooreSchema mooreSchema.nga 
+hprep6 -s IEEE1149 -n mooreSchema -i mooreSchema 

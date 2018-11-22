@@ -1,0 +1,16 @@
+V3 20
+FL "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.vhf" 2018/10/24.11:02:00 P.20131013
+EN work/FJKCE_MXILINX_liczniik 1540371723 \
+      FL "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FJKCE_MXILINX_liczniik/BEHAVIORAL 1540371724 \
+      FL "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.vhf" \
+      EN work/FJKCE_MXILINX_liczniik 1540371723 CP FDCE CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/liczniik 1540371725 \
+      FL "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/liczniik/BEHAVIORAL 1540371726 \
+      FL "C:/Users/lab/Desktop/Lab3- zajecia/liczniik.vhf" EN work/liczniik 1540371725 \
+      CP FJKCE_MXILINX_liczniik CP AND2B1 CP INV CP AND2 CP AND2B2 CP OR2 CP HexTo7Seg \
+      CP VCC

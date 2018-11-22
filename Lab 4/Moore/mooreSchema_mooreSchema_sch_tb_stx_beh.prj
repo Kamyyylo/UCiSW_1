@@ -1,0 +1,2 @@
+vhdl isim_temp "mooreSchema.vhf"
+vhdl isim_temp "morretest.vhd"

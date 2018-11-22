@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+#  ZL-9572 CPLD board,  J.Sugier 2009
+#-----------------------------------------------------------
+
+# Clocks
+#NET "Clk_LF" LOC = "P7" | BUFG = CLK | PERIOD = 5ms HIGH 50%;
+
+#NET "Clk_XT" LOC = "P5" | BUFG = CLK | PERIOD = 500ns HIGH 50%;
+
+# Keys
+NET "zerowanie" LOC = "P42";
+NET "Ce" LOC = "P40";
+NET "zegarek" LOC = "P43";
+#NET "Key<3>" LOC = "P38";
+#NET "Key<4>" LOC = "P37";
+#NET "Key<5>" LOC = "P36";  # shared with ROT_A
+#NET "Key<6>" LOC = "P24";  # shared with ROT_B
+#NET "Key<7>" LOC = "P39";  # GSR
+
+# LEDS
+NET "q3"  LOC = "P35";
+NET "q2"  LOC = "P29";
+NET "q1"  LOC = "P33";
+#NET "LED<3>"  LOC = "P34";
+#NET "LED<4>"  LOC = "P28";
+#NET "LED<5>"  LOC = "P27";
+#NET "LED<6>"  LOC = "P26";
+#NET "LED<7>"  LOC = "P25";
+
+#NET "LED<8>"  LOC = "P13";	# shared with seg. B
+#NET "LED<9>"  LOC = "P11";	# shared with seg. F
+#NET "LED<10>" LOC = "P12";	# shared with seg. A
+#NET "LED<11>" LOC = "P18";	# shared with seg. DP
+#NET "LED<12>" LOC = "P22";	# shared with seg. C
+#NET "LED<13>" LOC = "P20";	# shared with seg. G
+#NET "LED<14>" LOC = "P19";	# shared with seg. D
+#NET "LED<15>" LOC = "P14";	# shared with seg. E
+
+# DISPL. 7-SEG
+#NET "D7S_D<0>" LOC = "P8" | SLEW = "SLOW";
+#NET "D7S_D<1>" LOC = "P6" | SLEW = "SLOW";
+#NET "D7S_D<2>" LOC = "P4" | SLEW = "SLOW";
+#NET "D7S_D<3>" LOC = "P9" | SLEW = "SLOW";
+#NET "D7S_S<0>" LOC = "P12";	# Seg. A; shared with LED<10>
+#NET "D7S_S<1>" LOC = "P13";	# Seg. B; shared with LED<8>
+#NET "D7S_S<2>" LOC = "P22";	# Seg. C; shared with LED<12>
+#NET "D7S_S<3>" LOC = "P19";	# Seg. D; shared with LED<14>
+#NET "D7S_S<4>" LOC = "P14";	# Seg. E; shared with LED<15>
+#NET "D7S_S<5>" LOC = "P11";	# Seg. F; shared with LED<9>
+#NET "D7S_S<6>" LOC = "P20";	# Seg. G; shared with LED<13>
+#NET "D7S_S<7>" LOC = "P18";	# Seg. DP;shared with LED<11>
+
+# Rotary encoder
+#NET "ROT_A" LOC = "P36";	# shared with Key<5>
+#NET "ROT_B" LOC = "P24";	# shared with Key<6>
+
+# PS/2
+#NET "PS2_Clk"   LOC = "P3";
+#NET "PS2_Data"  LOC = "P2";
+
+# RS-232
+#NET "RS_RX" LOC = "P1";
+#NET "RS_TX" LOC = "P44";

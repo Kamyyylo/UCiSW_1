@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Moore.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="mooreSchema.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="mooreSchema.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="mooreSchema.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="mooreSchema.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="mooreSchema.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="mooreSchema.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="mooreSchema.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="mooreSchema.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="mooreSchema.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="mooreSchema.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="mooreSchema.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="mooreSchema.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="mooreSchema.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mooreSchema.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="mooreSchema.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="mooreSchema.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="mooreSchema.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="mooreSchema.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="mooreSchema.tspec"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="mooreSchema.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="mooreSchema.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="mooreSchema.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="mooreSchema.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="mooreSchema_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="mooreSchema_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="mooreSchema_html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mooreSchema_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mooreSchema_mooreSchema_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mooreSchema_mooreSchema_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="mooreSchema_mooreSchema_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mooreSchema_mooreSchema_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mooreSchema_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="mooreSchema_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="mooreSchema_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mooreSchema_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mooreSchema_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1541576708" xil_pn:name="TRANEXT_compLibraries_CPLD" xil_pn:prop_ck="660121163389241621" xil_pn:start_ts="1541576708">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1541576892" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1541576892">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1541579659" xil_pn:in_ck="3122728255433505813" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1541579659">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="morretest.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1541578476" xil_pn:in_ck="1444957182132545695" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2996421190919460579" xil_pn:start_ts="1541578475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="mooreSchema.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1541579659" xil_pn:in_ck="-2314027375941496262" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1541579659">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="mooreSchema.vhf"/>
+      <outfile xil_pn:name="morretest.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1541579665" xil_pn:in_ck="-2314027375941496262" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6826944860225420034" xil_pn:start_ts="1541579659">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="mooreSchema_mooreSchema_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="mooreSchema_mooreSchema_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1541579666" xil_pn:in_ck="-3848098532785036888" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8046667458294994027" xil_pn:start_ts="1541579665">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="mooreSchema_mooreSchema_sch_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1541576633" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1541576633">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1541581047" xil_pn:in_ck="1444957182132545695" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-545573904456362455" xil_pn:start_ts="1541581045">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="mooreSchema.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1541581053" xil_pn:in_ck="1444957182132549125" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="-1259430746471275204" xil_pn:start_ts="1541581047">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="mooreSchema.jhd"/>
+      <outfile xil_pn:name="mooreSchema.lso"/>
+      <outfile xil_pn:name="mooreSchema.ngc"/>
+      <outfile xil_pn:name="mooreSchema.ngr"/>
+      <outfile xil_pn:name="mooreSchema.prj"/>
+      <outfile xil_pn:name="mooreSchema.stx"/>
+      <outfile xil_pn:name="mooreSchema.syr"/>
+      <outfile xil_pn:name="mooreSchema.xst"/>
+      <outfile xil_pn:name="mooreSchema_mooreSchema_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="mooreSchema_mooreSchema_sch_tb_stx_beh.prj"/>
+      <outfile xil_pn:name="mooreSchema_vhdl.prj"/>
+      <outfile xil_pn:name="mooreSchema_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1541581464" xil_pn:in_ck="141435169788748278" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5814948370402915947" xil_pn:start_ts="1541581464">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1541581469" xil_pn:in_ck="6357813646956329743" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="920057667651985957" xil_pn:start_ts="1541581464">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="mooreSchema.bld"/>
+      <outfile xil_pn:name="mooreSchema.ngd"/>
+      <outfile xil_pn:name="mooreSchema_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1541581475" xil_pn:in_ck="1444957182132540378" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-85391765951317039" xil_pn:start_ts="1541581469">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="mooreSchema.gyd"/>
+      <outfile xil_pn:name="mooreSchema.mfd"/>
+      <outfile xil_pn:name="mooreSchema.nga"/>
+      <outfile xil_pn:name="mooreSchema.pad"/>
+      <outfile xil_pn:name="mooreSchema.pnx"/>
+      <outfile xil_pn:name="mooreSchema.rpt"/>
+      <outfile xil_pn:name="mooreSchema.tim"/>
+      <outfile xil_pn:name="mooreSchema.tspec"/>
+      <outfile xil_pn:name="mooreSchema.vm6"/>
+      <outfile xil_pn:name="mooreSchema.xml"/>
+      <outfile xil_pn:name="mooreSchema_build.xml"/>
+      <outfile xil_pn:name="mooreSchema_html"/>
+      <outfile xil_pn:name="mooreSchema_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1541581477" xil_pn:in_ck="1444957182132549242" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1541581475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="mooreSchema.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1541576668" xil_pn:in_ck="1444957182132549242" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1541576665">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>
