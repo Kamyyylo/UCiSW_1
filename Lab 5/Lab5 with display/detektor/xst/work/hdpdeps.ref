@@ -1,0 +1,18 @@
+V3 11
+FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.vhf" 2018/11/21.09:46:24 P.20131013
+EN work/DetektorSchemat 1542789991 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/DetektorSchemat/BEHAVIORAL 1542789992 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.vhf" \
+      EN work/DetektorSchemat 1542789991 CP DetektorSekwencji CP PS2_RX CP VCC \
+      CP Display4x7S
+FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSekwencji.vhd" 2018/10/10.08:48:24 P.20131013
+EN work/DetektorSekwencji 1542789989 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSekwencji.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_SIGNED 1381692178
+AR work/DetektorSekwencji/Behavioral 1542789990 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSekwencji.vhd" \
+      EN work/DetektorSekwencji 1542789989

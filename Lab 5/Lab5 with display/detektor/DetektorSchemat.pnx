@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE ibis [
+<!ELEMENT ibis (part, pin+)>
+<!ELEMENT part EMPTY>
+<!ELEMENT pin EMPTY>
+<!ATTLIST part
+  arch   CDATA #REQUIRED
+  device CDATA #REQUIRED
+  spg    CDATA #REQUIRED
+  pkg    CDATA #REQUIRED>
+<!ATTLIST pin
+  nm     CDATA #REQUIRED
+  no     CDATA #REQUIRED
+  iostd  (TTL|LVTTL|LVCMOS2|NA) "NA"
+  sr     (SLOW|FAST|slow|fast) "SLOW"
+  dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
+]>
+<ibis><part arch="xc9500xl" device="XC9572XL" pkg="PC44" spg="-10"/><pin dir="input" nm="CLK_XT" no="5"/><pin dir="input" nm="Reset" no="42"/><pin dir="input" nm="PS2_CLK" no="3"/><pin dir="input" nm="PS2_DATA" no="2"/><pin dir="input" nm="CLK_DSPL" no="7"/><pin dir="output" nm="D7S_S&lt;1&gt;" no="13" sr="fast"/><pin dir="output" nm="D7S_S&lt;4&gt;" no="14" sr="fast"/><pin dir="output" nm="D7S_S&lt;3&gt;" no="19" sr="fast"/><pin dir="output" nm="D7S_S&lt;0&gt;" no="12" sr="fast"/><pin dir="output" nm="D7S_S&lt;2&gt;" no="22" sr="fast"/><pin dir="output" nm="D7S_S&lt;5&gt;" no="11" sr="fast"/><pin dir="output" nm="D7S_S&lt;6&gt;" no="20" sr="fast"/><pin dir="output" nm="D7S_S&lt;7&gt;" no="18" sr="fast"/><pin dir="output" nm="Y" no="35" sr="fast"/><pin dir="output" nm="D7S_D&lt;0&gt;" no="8" sr="slow"/><pin dir="output" nm="D7S_D&lt;1&gt;" no="6" sr="slow"/><pin dir="output" nm="D7S_D&lt;2&gt;" no="4" sr="slow"/><pin dir="output" nm="D7S_D&lt;3&gt;" no="9" sr="slow"/></ibis>

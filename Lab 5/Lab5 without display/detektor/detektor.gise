@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="detektor.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DetektorSchemat.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="DetektorSchemat.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DetektorSchemat.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DetektorSchemat.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DetektorSchemat.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DetektorSchemat.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DetektorSchemat.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DetektorSchemat.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="DetektorSchemat.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DetektorSchemat.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DetektorSchemat_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="DetektorSekwencji.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DetektorSekwencji.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DetektorSekwencjiTest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DetektorSekwencjiTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="DetektorSekwencjiTest_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DetektorSekwencjiTest_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1539159800" xil_pn:name="TRANEXT_compLibraries_FPGA" xil_pn:prop_ck="6722788503651541474" xil_pn:start_ts="1539159799">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539152011" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1539152011">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539154744" xil_pn:in_ck="-8036180229216353142" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1539154744">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DetektorSekwencji.vhd"/>
+      <outfile xil_pn:name="DetektorSekwencjiTest.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1539153610" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2045531462689752660" xil_pn:start_ts="1539153610">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539153610" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4030871110884084116" xil_pn:start_ts="1539153610">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1539152012" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3530691216123603891" xil_pn:start_ts="1539152012">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1539154744" xil_pn:in_ck="-8036180229216353142" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1539154744">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="DetektorSekwencji.vhd"/>
+      <outfile xil_pn:name="DetektorSekwencjiTest.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1539154747" xil_pn:in_ck="-8036180229216353142" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4292508123308431781" xil_pn:start_ts="1539154744">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DetektorSekwencjiTest_beh.prj"/>
+      <outfile xil_pn:name="DetektorSekwencjiTest_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1539154747" xil_pn:in_ck="967502069471008148" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8080466715966942072" xil_pn:start_ts="1539154747">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DetektorSekwencjiTest_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1539159813" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1539159813">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539159815" xil_pn:in_ck="-8470213978066976333" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="724625802471570477" xil_pn:start_ts="1539159813">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DetektorSchemat.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1539159815" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6136796525272326239" xil_pn:start_ts="1539159815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539159815" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1539159815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539159815" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5816475819533307629" xil_pn:start_ts="1539159815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539159815" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="7035572242731331400" xil_pn:start_ts="1539159815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539159815" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3621356612383382761" xil_pn:start_ts="1539159815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539159826" xil_pn:in_ck="-103419702564812146" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-2631525536420155993" xil_pn:start_ts="1539159815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DetektorSchemat.jhd"/>
+      <outfile xil_pn:name="DetektorSchemat.lso"/>
+      <outfile xil_pn:name="DetektorSchemat.ngc"/>
+      <outfile xil_pn:name="DetektorSchemat.ngr"/>
+      <outfile xil_pn:name="DetektorSchemat.prj"/>
+      <outfile xil_pn:name="DetektorSchemat.stx"/>
+      <outfile xil_pn:name="DetektorSchemat.syr"/>
+      <outfile xil_pn:name="DetektorSchemat.xst"/>
+      <outfile xil_pn:name="DetektorSchemat_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

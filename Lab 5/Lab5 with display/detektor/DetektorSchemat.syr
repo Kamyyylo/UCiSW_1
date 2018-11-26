@@ -1,0 +1,239 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: DetektorSchemat.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DetektorSchemat.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DetektorSchemat"
+Output Format                      : NGC
+Target Device                      : XC9500XL CPLDs
+
+---- Source Options
+Top Module Name                    : DetektorSchemat
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSekwencji.vhd" in Library work.
+Architecture behavioral of Entity detektorsekwencji is up to date.
+Compiling vhdl file "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.vhf" in Library work.
+Entity <detektorschemat> compiled.
+Entity <detektorschemat> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DetektorSchemat> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DetektorSekwencji> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DetektorSchemat> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.vhf" line 88: Instantiating black box module <PS2_RX>.
+WARNING:Xst:2211 - "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.vhf" line 99: Instantiating black box module <Display4x7S>.
+Entity <DetektorSchemat> analyzed. Unit <DetektorSchemat> generated.
+
+Analyzing Entity <DetektorSekwencji> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSekwencji.vhd" line 49: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <CE>
+WARNING:Xst:819 - "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSekwencji.vhd" line 62: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <DI>
+Entity <DetektorSekwencji> analyzed. Unit <DetektorSekwencji> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DetektorSekwencji>.
+    Related source file is "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSekwencji.vhd".
+    Found 3-bit 7-to-1 multiplexer for signal <next_state>.
+    Found 3-bit register for signal <state>.
+Unit <DetektorSekwencji> synthesized.
+
+
+Synthesizing Unit <DetektorSchemat>.
+    Related source file is "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.vhf".
+WARNING:Xst:653 - Signal <XLXI_6_DP_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+WARNING:Xst:653 - Signal <XLXI_6_Blank_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+Unit <DetektorSchemat> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 3-bit register                                        : 1
+# Multiplexers                                         : 1
+ 3-bit 7-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <PS2_RX.ngc>.
+Loading core <PS2_RX> for timing and area information for instance <XLXI_2>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 1
+ 3-bit 7-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DetektorSchemat> ...
+
+Optimizing unit <DetektorSekwencji> ...
+  implementation constraint: INIT=r	 : state_2
+  implementation constraint: INIT=r	 : state_1
+  implementation constraint: INIT=r	 : state_0
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_D<3>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_D<2>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_D<1>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_D<0>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_S<7>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_S<6>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_S<5>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_S<4>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_S<3>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_S<2>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_S<1>> driven by black box <Display4x7S>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D7S_S<0>> driven by black box <Display4x7S>. Possible simulation mismatch.
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DetektorSchemat.ngr
+Top Level Output File Name         : DetektorSchemat
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : XC9500XL CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 100
+#      AND2                        : 27
+#      AND3                        : 10
+#      AND4                        : 6
+#      GND                         : 2
+#      INV                         : 42
+#      OR2                         : 8
+#      VCC                         : 1
+#      XOR2                        : 4
+# FlipFlops/Latches                : 18
+#      FD                          : 11
+#      FDC                         : 4
+#      FDCE                        : 3
+# IO Buffers                       : 18
+#      IBUF                        : 5
+#      OBUF                        : 13
+# Others                           : 1
+#      Display4x7S                 : 1
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.88 secs
+ 
+--> 
+
+Total memory usage is 201592 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

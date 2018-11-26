@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/Desktop/Lab5/detektor/DetektorSekwencji.vhd" Line 51: <arg fmt="%s" index="1">ce</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/Desktop/Lab5/detektor/DetektorSekwencji.vhd" Line 68: <arg fmt="%s" index="1">di</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/Desktop/Lab5/detektor/DetektorSekwencji.vhd" Line 74: <arg fmt="%s" index="1">di</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/Desktop/Lab5/detektor/DetektorSekwencji.vhd" Line 80: <arg fmt="%s" index="1">di</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/Desktop/Lab5/detektor/DetektorSekwencji.vhd" Line 86: <arg fmt="%s" index="1">di</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/Desktop/Lab5/detektor/DetektorSekwencji.vhd" Line 89: <arg fmt="%s" index="1">di</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/Desktop/Lab5/detektor/DetektorSekwencji.vhd" Line 96: <arg fmt="%s" index="1">di</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/Desktop/Lab5/detektor/DetektorSekwencji.vhd" Line 102: <arg fmt="%s" index="1">di</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/Desktop/Lab5/detektor/DetektorSekwencji.vhd" Line 108: <arg fmt="%s" index="1">di</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"/home/ise/Desktop/Lab5/detektor/DetektorSchemat.vhf" Line 50: &lt;<arg fmt="%s" index="1">ps2_rx</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+</messages>
+

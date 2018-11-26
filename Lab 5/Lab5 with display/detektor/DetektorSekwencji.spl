@@ -1,0 +1,9 @@
+[Inputs]
+RDY
+RST
+CLK
+CE
+=DI[7:0]=
+[Outputs]
+Y
+[BiDir]

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 "DetektorSchemat.ngc" DetektorSchemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper DetektorSchemat.ngd 
+XSLTProcess DetektorSchemat_build.xml 
+tsim -intstyle ise DetektorSchemat DetektorSchemat.nga 
+taengine -intstyle ise -f DetektorSchemat -w --format html1 -l DetektorSchemat_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n DetektorSchemat -i DetektorSchemat 
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab5/detektor/DetektorSchemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Display4x7Seg -sd HexTo7Seg -uc ZL-9572.ucf -p xc9572xl-PC44-10 "DetektorSchemat.ngc" DetektorSchemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper DetektorSchemat.ngd 
+XSLTProcess DetektorSchemat_build.xml 
+tsim -intstyle ise DetektorSchemat DetektorSchemat.nga 
+hprep6 -s IEEE1149 -n DetektorSchemat -i DetektorSchemat 

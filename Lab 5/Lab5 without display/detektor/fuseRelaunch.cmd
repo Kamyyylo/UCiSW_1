@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Desktop/Lab5/detektor/DetektorSekwencjiTest_isim_beh.exe" -prj "/home/ise/Desktop/Lab5/detektor/DetektorSekwencjiTest_beh.prj" "work.DetektorSekwencjiTest" 
