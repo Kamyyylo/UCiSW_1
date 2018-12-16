@@ -1,5 +1,5 @@
 # Zadania na laboratoria z przedmiotu Układy Cyfrowie i Systemy wbudowane</br>
-**Repozystorium zawiera:** </br>
+**Repozytorium zawiera:** </br>
 -zdjęcia </br>
 -schematy</br>
 -sprawozdania </br>
