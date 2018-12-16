@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="1401" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">27</arg>. Object <arg fmt="%s" index="3">gray</arg> of mode <arg fmt="%s" index="4">OUT</arg> can not be read.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1402" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">27</arg>. Object <arg fmt="%s" index="3">bin</arg> of mode <arg fmt="%s" index="4">IN</arg> can not be updated.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">28</arg>. Parameter <arg fmt="%s" index="3">gray</arg> of mode <arg fmt="%s" index="4">out</arg> can not be associated with a formal <arg fmt="%s" index="5">parameter</arg> of mode <arg fmt="%s" index="6">in</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">28</arg>. Parameter <arg fmt="%s" index="3">gray</arg> of mode <arg fmt="%s" index="4">out</arg> can not be associated with a formal <arg fmt="%s" index="5">parameter</arg> of mode <arg fmt="%s" index="6">in</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1402" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">28</arg>. Object <arg fmt="%s" index="3">bin</arg> of mode <arg fmt="%s" index="4">IN</arg> can not be updated.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. Parameter <arg fmt="%s" index="3">gray</arg> of mode <arg fmt="%s" index="4">out</arg> can not be associated with a formal <arg fmt="%s" index="5">parameter</arg> of mode <arg fmt="%s" index="6">in</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. Parameter <arg fmt="%s" index="3">gray</arg> of mode <arg fmt="%s" index="4">out</arg> can not be associated with a formal <arg fmt="%s" index="5">parameter</arg> of mode <arg fmt="%s" index="6">in</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1402" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. Object <arg fmt="%s" index="3">bin</arg> of mode <arg fmt="%s" index="4">IN</arg> can not be updated.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">30</arg>. Parameter <arg fmt="%s" index="3">gray</arg> of mode <arg fmt="%s" index="4">out</arg> can not be associated with a formal <arg fmt="%s" index="5">parameter</arg> of mode <arg fmt="%s" index="6">in</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">30</arg>. Parameter <arg fmt="%s" index="3">gray</arg> of mode <arg fmt="%s" index="4">out</arg> can not be associated with a formal <arg fmt="%s" index="5">parameter</arg> of mode <arg fmt="%s" index="6">in</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1402" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd</arg>&quot; Line <arg fmt="%d" index="2">30</arg>. Object <arg fmt="%s" index="3">bin</arg> of mode <arg fmt="%s" index="4">IN</arg> can not be updated.
+</msg>
+
+</messages>
+

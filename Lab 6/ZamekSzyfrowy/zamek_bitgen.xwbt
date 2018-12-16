@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/daaaga/lab6/zamek.ncd
+OUTFILE=/home/ise/daaaga/lab6/zamek.bit
+FAMILY=Automotive Spartan6
+PART=xa6slx4-3csg225
+WORKINGDIR=/home/ise/daaaga/lab6
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work sevenBitGrayCounter.vhd -prj Counter -o sevenBitGrayCounter.spl -module sevenBitGrayCounter -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 sevenBitGrayCounter.spl /home/ise/Desktop/Counter/sevenBitGrayCounter.sym 

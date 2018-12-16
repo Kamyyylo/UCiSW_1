@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;Clk_XT&quot; LOC = &quot;P5&quot; |&gt; [ZL-9572.ucf(8)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">Clk_XT</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Clk_XT&quot; LOC = &quot;P5&quot; |&gt; [ZL-9572.ucf(8)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;BUFG = CLK |&gt; [ZL-9572.ucf(8)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">Clk_XT</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PERIOD = 500ns HIGH 50%;&gt; [ZL-9572.ucf(8)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">Clk_XT</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;RST&quot; LOC = &quot;P42&quot;;&gt; [ZL-9572.ucf(11)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">RST</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;RST&quot; LOC = &quot;P42&quot;;&gt; [ZL-9572.ucf(11)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;Y&quot;  LOC = &quot;P35&quot;;&gt; [ZL-9572.ucf(21)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">Y</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Y&quot;  LOC = &quot;P35&quot;;&gt; [ZL-9572.ucf(21)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ROT_A&quot; LOC = &quot;P36&quot;;&gt; [ZL-9572.ucf(54)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ROT_A</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ROT_A&quot; LOC = &quot;P36&quot;;&gt; [ZL-9572.ucf(54)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ROT_B&quot; LOC = &quot;P24&quot;;&gt; [ZL-9572.ucf(55)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ROT_B</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ROT_B&quot; LOC = &quot;P24&quot;;&gt; [ZL-9572.ucf(55)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;PERIOD = 500ns HIGH 50%;&gt; [ZL-9572.ucf(8)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+</messages>
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Desktop/Counter/testgraya_isim_beh.exe" -prj "/home/ise/Desktop/Counter/testgraya_beh.prj" "work.testgraya" 

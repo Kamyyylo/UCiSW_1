@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorSchemat.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorSchemat.syr" 

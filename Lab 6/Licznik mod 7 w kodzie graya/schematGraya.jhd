@@ -1,0 +1,5 @@
+MODULE schematGraya
+	SUBMODULE sevenBitGrayCounter
+		INSTANCE XLXI_1
+	SUBMODULE HexTo7Seg
+		INSTANCE XLXI_3

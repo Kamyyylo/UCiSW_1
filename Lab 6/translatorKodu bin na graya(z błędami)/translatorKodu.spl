@@ -1,0 +1,5 @@
+[Inputs]
+=bin[3:0]=
+[Outputs]
+=gray[3:0]=
+[BiDir]

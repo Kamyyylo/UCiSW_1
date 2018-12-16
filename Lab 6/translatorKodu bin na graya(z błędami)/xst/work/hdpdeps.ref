@@ -1,0 +1,8 @@
+V3 3
+EN work/translatorKodu 0 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/translatorKodu/Behavioral 0 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.vhd" \
+      EN work/translatorKodu 0

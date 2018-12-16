@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Desktop/Lab6/zamek_test_isim_beh.exe" -prj "/home/ise/Desktop/Lab6/zamek_test_beh.prj" "work.zamek_test" 

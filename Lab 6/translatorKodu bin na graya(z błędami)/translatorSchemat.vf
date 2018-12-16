@@ -1,0 +1,32 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : translatorSchemat.vf
+// /___/   /\     Timestamp : 12/05/2018 10:58:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500xl -verilog "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorSchemat.vf" -w "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorSchemat.sch"
+//Design Name: translatorSchemat
+//Device: xc9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module translatorSchemat(bin, 
+                         gray);
+
+    input [3:0] bin;
+   output [3:0] gray;
+   
+   
+   translatorKodu  XLXI_1 (.bin(bin[3:0]), 
+                          .gray(gray[3:0]));
+endmodule

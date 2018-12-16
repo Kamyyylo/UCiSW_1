@@ -1,0 +1,2 @@
+vhdtdtfi -lib work translatorKodu.vhd -prj translatorKodu -o translatorKodu.spl -module translatorKodu -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl translatorKodu.spl {C:/Users/lab/Lab- Kamyszek-Szykulska/Lab6/translatorKodu/translatorKodu.sym} 

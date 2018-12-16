@@ -1,0 +1,3 @@
+MODULE translatorSchemat
+	SUBMODULE translatorKodu
+		INSTANCE XLXI_1

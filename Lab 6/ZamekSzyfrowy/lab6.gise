@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab6.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="zamek.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="zamek.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="zamek.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="zamek.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="zamek.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="zamek.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="zamek.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="zamek.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="zamek.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="zamek.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="zamek.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="zamek.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="zamek.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zamek.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="zamek.ptwx"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zamek.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="zamek.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zamek.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="zamek.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="zamek.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="zamek.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="zamek.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="zamek.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="zamek.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="zamek.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="zamek_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="zamek_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="zamek_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="zamek_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="zamek_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="zamek_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="zamek_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="zamek_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="zamek_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="zamek_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="zamek_par.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zamek_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="zamek_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="zamek_summary.xml"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zamek_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="zamek_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="zamek_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zamek_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="zamek_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="zamek_xst.xrpt"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1543448047" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1543448047">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543448907" xil_pn:in_ck="-7043416764339182001" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1543448907">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="zamek.vhd"/>
+      <outfile xil_pn:name="zamek_test.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1542876919" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7689450690408240407" xil_pn:start_ts="1542876919">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1542876921" xil_pn:in_ck="5782019301311718632" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="149330123272706723" xil_pn:start_ts="1542876919">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1543448047" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3411539581174817026" xil_pn:start_ts="1543448047">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543448915" xil_pn:in_ck="-7043416764339182001" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1543448915">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="zamek.vhd"/>
+      <outfile xil_pn:name="zamek_test.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1542876924" xil_pn:in_ck="-7043416764339182001" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1340066570029740795" xil_pn:start_ts="1542876921">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+      <outfile xil_pn:name="zamek_test_beh.prj"/>
+      <outfile xil_pn:name="zamek_test_isim_beh.exe"/>
+    </transform>
+    <transform xil_pn:end_ts="1542876925" xil_pn:in_ck="-5848987045258057594" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1646942930188615384" xil_pn:start_ts="1542876925">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="zamek_test_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1543447147" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1543447147">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1542879100" xil_pn:in_ck="5782019301311718632" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8534696060825237583" xil_pn:start_ts="1542879097">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543447147" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3411539581174817026" xil_pn:start_ts="1543447147">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543447147" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1543447147">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543447147" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4149863316546182565" xil_pn:start_ts="1543447147">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543447147" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="6075245583379680512" xil_pn:start_ts="1543447147">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543447147" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5085093704341849480" xil_pn:start_ts="1543447147">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543447860" xil_pn:in_ck="175860691756168" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="5091919463984202394" xil_pn:start_ts="1543447837">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+      <outfile xil_pn:name="zamek.lso"/>
+      <outfile xil_pn:name="zamek.ngc"/>
+      <outfile xil_pn:name="zamek.ngr"/>
+      <outfile xil_pn:name="zamek.prj"/>
+      <outfile xil_pn:name="zamek.stx"/>
+      <outfile xil_pn:name="zamek.syr"/>
+      <outfile xil_pn:name="zamek.xst"/>
+      <outfile xil_pn:name="zamek_xst.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1542879102" xil_pn:in_ck="141435169788748278" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8418962267898334000" xil_pn:start_ts="1542879101">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1542879109" xil_pn:in_ck="8371718203697032145" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4629249360949094092" xil_pn:start_ts="1542879102">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="zamek.bld"/>
+      <outfile xil_pn:name="zamek.ngd"/>
+      <outfile xil_pn:name="zamek_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1543447918" xil_pn:in_ck="175860691747423" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="6289270943427689258" xil_pn:start_ts="1543447889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="zamek.pcf"/>
+      <outfile xil_pn:name="zamek_map.map"/>
+      <outfile xil_pn:name="zamek_map.mrp"/>
+      <outfile xil_pn:name="zamek_map.ncd"/>
+      <outfile xil_pn:name="zamek_map.ngm"/>
+      <outfile xil_pn:name="zamek_map.xrpt"/>
+      <outfile xil_pn:name="zamek_summary.xml"/>
+      <outfile xil_pn:name="zamek_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1543447952" xil_pn:in_ck="5642704693783996664" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="7367957561374022844" xil_pn:start_ts="1543447918">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="zamek.ncd"/>
+      <outfile xil_pn:name="zamek.pad"/>
+      <outfile xil_pn:name="zamek.par"/>
+      <outfile xil_pn:name="zamek.ptwx"/>
+      <outfile xil_pn:name="zamek.unroutes"/>
+      <outfile xil_pn:name="zamek.xpi"/>
+      <outfile xil_pn:name="zamek_pad.csv"/>
+      <outfile xil_pn:name="zamek_pad.txt"/>
+      <outfile xil_pn:name="zamek_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1543448007" xil_pn:in_ck="175860691747291" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="7921605576690032156" xil_pn:start_ts="1543447985">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="zamek.bgn"/>
+      <outfile xil_pn:name="zamek.bit"/>
+      <outfile xil_pn:name="zamek.drc"/>
+      <outfile xil_pn:name="zamek.ut"/>
+    </transform>
+    <transform xil_pn:end_ts="1543447952" xil_pn:in_ck="175860691747291" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1543447939">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="zamek.twr"/>
+      <outfile xil_pn:name="zamek.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>
