@@ -1,0 +1,49 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd RS232 -sd LCD1x64 -nt timestamp -uc GenIO/GenIO.ucf -uc
+LCD/LCD.ucf -p xc3s500e-fg320-4 CounterBit8ReverseSchema.ngc
+CounterBit8ReverseSchema.ngd
+
+Reading NGO file "C:/Users/lab/Lab-
+Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.ngc" ...
+Loading design module "LCD1x64/LCD1x64.ngc"...
+Loading design module "RS232/RS232.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "GenIO/GenIO.ucf" ...
+Annotating constraints to design from ucf file "LCD/LCD.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem - The Period constraint <PERIOD = 20.0ns HIGH 50%;>
+   [GenIO/GenIO.ucf(2)], is specified using the Net Period method which is not
+   recommended. Please use the Timespec PERIOD method.
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N75' has no driver
+WARNING:NgdBuild:452 - logical net 'N76' has no driver
+WARNING:NgdBuild:452 - logical net 'N77' has no driver
+WARNING:NgdBuild:452 - logical net 'N78' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   4
+
+Total memory usage is 114776 kilobytes
+
+Writing NGD file "CounterBit8ReverseSchema.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "CounterBit8ReverseSchema.bld"...

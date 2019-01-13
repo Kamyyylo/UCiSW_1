@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd RS232 -sd LCD1x64 -nt timestamp -uc "GenIO/GenIO.ucf" -p xc3s1200e-ft256-5 "CounterBit8ReverseSchema.ngc" CounterBit8ReverseSchema.ngd  
+map -intstyle ise -p xc3s1200e-ft256-5 -cm area -ir off -pr off -c 100 -o CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ngd CounterBit8ReverseSchema.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd RS232 -sd LCD1x64 -nt timestamp -uc "GenIO/GenIO.ucf" -p xc3s500e-fg320-4 "CounterBit8ReverseSchema.ngc" CounterBit8ReverseSchema.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ngd CounterBit8ReverseSchema.pcf 
+par -w -intstyle ise -ol high -t 1 CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ncd CounterBit8ReverseSchema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterBit8ReverseSchema.twx CounterBit8ReverseSchema.ncd -o CounterBit8ReverseSchema.twr CounterBit8ReverseSchema.pcf 
+bitgen -intstyle ise -f CounterBit8ReverseSchema.ut CounterBit8ReverseSchema.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd RS232 -sd LCD1x64 -nt timestamp -uc "GenIO/GenIO.ucf" -p xc3s500e-fg320-4 "CounterBit8ReverseSchema.ngc" CounterBit8ReverseSchema.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ngd CounterBit8ReverseSchema.pcf 
+par -w -intstyle ise -ol high -t 1 CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ncd CounterBit8ReverseSchema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterBit8ReverseSchema.twx CounterBit8ReverseSchema.ncd -o CounterBit8ReverseSchema.twr CounterBit8ReverseSchema.pcf 
+bitgen -intstyle ise -f CounterBit8ReverseSchema.ut CounterBit8ReverseSchema.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd RS232 -sd LCD1x64 -nt timestamp -uc "GenIO/GenIO.ucf" -uc "LCD/LCD.ucf" -p xc3s500e-fg320-4 "CounterBit8ReverseSchema.ngc" CounterBit8ReverseSchema.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ngd CounterBit8ReverseSchema.pcf 
+par -w -intstyle ise -ol high -t 1 CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ncd CounterBit8ReverseSchema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterBit8ReverseSchema.twx CounterBit8ReverseSchema.ncd -o CounterBit8ReverseSchema.twr CounterBit8ReverseSchema.pcf 
+bitgen -intstyle ise -f CounterBit8ReverseSchema.ut CounterBit8ReverseSchema.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym CounterBit8ReverseSchema {C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.sch} {C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.sym} 
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd RS232 -sd LCD1x64 -nt timestamp -uc "GenIO/GenIO.ucf" -uc "LCD/LCD.ucf" -p xc3s500e-fg320-4 "CounterBit8ReverseSchema.ngc" CounterBit8ReverseSchema.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ngd CounterBit8ReverseSchema.pcf 
+par -w -intstyle ise -ol high -t 1 CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ncd CounterBit8ReverseSchema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterBit8ReverseSchema.twx CounterBit8ReverseSchema.ncd -o CounterBit8ReverseSchema.twr CounterBit8ReverseSchema.pcf 
+bitgen -intstyle ise -f CounterBit8ReverseSchema.ut CounterBit8ReverseSchema.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.xst" -ofn "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd RS232 -sd LCD1x64 -nt timestamp -uc "GenIO/GenIO.ucf" -uc "LCD/LCD.ucf" -p xc3s500e-fg320-4 "CounterBit8ReverseSchema.ngc" CounterBit8ReverseSchema.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ngd CounterBit8ReverseSchema.pcf 
+par -w -intstyle ise -ol high -t 1 CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ncd CounterBit8ReverseSchema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterBit8ReverseSchema.twx CounterBit8ReverseSchema.ncd -o CounterBit8ReverseSchema.twr CounterBit8ReverseSchema.pcf 
+bitgen -intstyle ise -f CounterBit8ReverseSchema.ut CounterBit8ReverseSchema.ncd 

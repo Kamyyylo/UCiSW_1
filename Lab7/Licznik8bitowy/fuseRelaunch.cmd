@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/testvhdl_isim_beh.exe" -prj "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/testvhdl_beh.prj" "work.testvhdl" 

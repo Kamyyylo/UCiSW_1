@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\lab\Lab- Kamyszek-Szykulska\Lab7\Licznik8bitowy\CounterBit8ReverseSchema.ncd
+OUTFILE=C:\Users\lab\Lab- Kamyszek-Szykulska\Lab7\Licznik8bitowy\CounterBit8ReverseSchema.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\lab\Lab- Kamyszek-Szykulska\Lab7\Licznik8bitowy
+LICENSE=ISE
+USER_INFO=174693031_177724690_210552578_727

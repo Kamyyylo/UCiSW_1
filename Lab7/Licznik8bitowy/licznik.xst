@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/xst"
+elaborate
+-ifn licznik.prj
+-ifmt mixed

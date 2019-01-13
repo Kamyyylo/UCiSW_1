@@ -1,0 +1,4 @@
+EN counterbit8reverseschema NULL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.vhf" sub00/vhpl02 1545213009
+AR licznik behavioral "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/ReverseCounter8Bit.vhd" sub00/vhpl01 1545213008
+AR counterbit8reverseschema behavioral "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.vhf" sub00/vhpl03 1545213010
+EN licznik NULL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/ReverseCounter8Bit.vhd" sub00/vhpl00 1545213007

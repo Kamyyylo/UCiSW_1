@@ -1,0 +1,6 @@
+vhdtdtfi -lib work ReverseCounter8Bit.vhd -prj Licznik8bitowy -o licznik.spl -module licznik -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e licznik.spl {C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/licznik.sym} 
+vhdtdtfi -lib work ReverseCounter8Bit.vhd -prj Licznik8bitowy -o licznik.spl -module licznik -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e licznik.spl {C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/licznik.sym} 
+vhdtdtfi -lib work ReverseCounter8Bit.vhd -prj Licznik8bitowy -o licznik.spl -module licznik -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e licznik.spl {C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/licznik.sym} 

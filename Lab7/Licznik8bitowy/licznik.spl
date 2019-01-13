@@ -1,0 +1,8 @@
+[Inputs]
+we
+clr
+C
+=RxDO[7:0]=
+[Outputs]
+=wy[7:0]=
+[BiDir]

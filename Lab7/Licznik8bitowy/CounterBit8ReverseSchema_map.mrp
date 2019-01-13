@@ -1,0 +1,393 @@
+Release 14.7 Map P.20131013 (nt)
+Xilinx Mapping Report File for Design 'CounterBit8ReverseSchema'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off
+-c 100 -o CounterBit8ReverseSchema_map.ncd CounterBit8ReverseSchema.ngd
+CounterBit8ReverseSchema.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Wed Dec 19 10:50:24 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    1
+Logic Utilization:
+  Number of Slice Flip Flops:           141 out of   9,312    1%
+  Number of 4 input LUTs:               224 out of   9,312    2%
+Logic Distribution:
+  Number of occupied Slices:            164 out of   4,656    3%
+    Number of Slices containing only related logic:     164 out of     164 100%
+    Number of Slices containing unrelated logic:          0 out of     164   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         269 out of   9,312    2%
+    Number used as logic:               224
+    Number used as a route-thru:         45
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 14 out of     232    6%
+  Number of BUFGMUXs:                     2 out of      24    8%
+
+Average Fanout of Non-Clock Nets:                2.95
+
+Peak Memory Usage:  200 MB
+Total REAL time to MAP completion:  1 secs 
+Total CPU time to MAP completion:   1 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+WARNING:Pack:1186 - One or more I/O components have conflicting property values.
+    For each occurrence, the system will use the property value attached to the
+   pad.  Otherwise, the system will use the first property value read.  To view
+   each occurrence, create a detailed map report (run map using the -detail
+   option).
+
+Section 3 - Informational
+-------------------------
+INFO:Security:54 - 'xc3s500e' is a WebPack part.
+INFO:LIT:243 - Logical network N75 has no load.
+INFO:LIT:395 - The above info message is repeated 8 more times for the following
+   (max. 5 shown):
+   N76,
+   N77,
+   N78,
+   XLXI_3/genIOBUF[0].instIOBUF/O,
+   XLXI_3/genIOBUF[1].instIOBUF/O
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:159 - Net Timing constraints on signal Clk_50MHZ are pushed forward
+   through input buffer.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  19 block(s) removed
+  75 block(s) optimized away
+  30 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "XLXI_3/cntDigit_0_2" is sourceless and has been removed.
+The signal "XLXI_3/genIOBUF[0].instIOBUF/O" is sourceless and has been removed.
+The signal "XLXI_3/genIOBUF[1].instIOBUF/O" is sourceless and has been removed.
+The signal "XLXI_3/genIOBUF[2].instIOBUF/O" is sourceless and has been removed.
+The signal "XLXI_4/RxRdy" is sourceless and has been removed.
+The signal "XLXI_4/TxBusy" is sourceless and has been removed.
+The signal "XLXI_4/srTx_not0001" is sourceless and has been removed.
+The signal "XLXI_4/srTx_mux0000<0>" is sourceless and has been removed.
+The signal "XLXI_4/srTx_mux0000<1>" is sourceless and has been removed.
+The signal "XLXI_4/srTx_mux0000<2>" is sourceless and has been removed.
+The signal "XLXI_4/srTx_mux0000<3>" is sourceless and has been removed.
+The signal "XLXI_4/srTx_mux0000<4>" is sourceless and has been removed.
+The signal "XLXI_4/srTx_mux0000<5>" is sourceless and has been removed.
+The signal "XLXI_4/srTx_mux0000<6>" is sourceless and has been removed.
+The signal "XLXI_4/srTx_mux0000<7>" is sourceless and has been removed.
+The signal "XLXI_4/srTx_mux0000<8>" is sourceless and has been removed.
+The signal "XLXI_4/inTxDI_and0000" is sourceless and has been removed.
+The signal "XLXI_4/iTxBusy_or0000" is sourceless and has been removed.
+The signal "XLXI_4/ResRxRdy/qDIn" is sourceless and has been removed.
+ Sourceless block "XLXI_4/ResRxRdy/prevDIn" (FF) removed.
+  The signal "XLXI_4/ResRxRdy/prevDIn" is sourceless and has been removed.
+   Sourceless block "XLXI_4/ResRxRdy/Mxor_DOut_Result1" (ROM) removed.
+The signal "XLXI_4/ResRxRdy/DInToggle" is sourceless and has been removed.
+ Sourceless block "XLXI_4/ResRxRdy/qDIn" (FF) removed.
+ Sourceless block "XLXI_4/ResRxRdy/DInToggle_not00011_INV_0" (BUF) removed.
+  The signal "XLXI_4/ResRxRdy/DInToggle_not0001" is sourceless and has been
+removed.
+   Sourceless block "XLXI_4/ResRxRdy/DInToggle" (FF) removed.
+The signal "XLXI_4/ResTxStart/DInToggle" is sourceless and has been removed.
+ Sourceless block "XLXI_4/ResTxStart/DInToggle_not00011_INV_0" (BUF) removed.
+  The signal "XLXI_4/ResTxStart/DInToggle_not0001" is sourceless and has been
+removed.
+The signal "XLXI_4/ResTxBusy/qBusyExt" is sourceless and has been removed.
+ Sourceless block "XLXI_4/ResTxBusy/prevBusyExt" (FF) removed.
+  The signal "XLXI_4/ResTxBusy/prevBusyExt" is sourceless and has been removed.
+   Sourceless block "XLXI_4/ResTxBusy/BusyExt_and00001" (ROM) removed.
+    The signal "XLXI_4/ResTxBusy/BusyExt_and0000" is sourceless and has been
+removed.
+     Sourceless block "XLXI_4/ResTxBusy/BusyExt" (SFF) removed.
+The signal "XLXI_4/ResTxBusy/qBusyInt" is sourceless and has been removed.
+ Sourceless block "XLXI_4/ResTxBusy/qBusyExt" (FF) removed.
+The signal "XLXI_4/iTxBusy_or0000_SW0/O" is sourceless and has been removed.
+The signal "XLXI_4/cntTx_or00001_SW0/O" is sourceless and has been removed.
+Unused block "XLXI_3/cntDigit_0_2" (FF) removed.
+Unused block "XLXI_3/genIOBUF[0].instIOBUF/IBUF" (BUF) removed.
+Unused block "XLXI_3/genIOBUF[1].instIOBUF/IBUF" (BUF) removed.
+Unused block "XLXI_3/genIOBUF[2].instIOBUF/IBUF" (BUF) removed.
+Unused block "XLXI_4/ResTxBusy/qBusyInt" (FF) removed.
+Unused block "XLXI_4/cntTx_or00001_SW0" (ROM) removed.
+Unused block "XLXI_4/iTxBusy_or0000" (ROM) removed.
+Unused block "XLXI_4/iTxBusy_or0000_SW0" (ROM) removed.
+Unused block "XLXI_4/srTx_not00011" (ROM) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+LUT3 		XLXI_3/Mmux_Blank_mux0000_5
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Blank_mux0000_6
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Blank_mux0000_61
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Blank_mux0000_62
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Blank_mux0000_7
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Blank_mux0000_71
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Blank_mux0000_72
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Blank_mux0000_8
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_6
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_61
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_610
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_611
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_62
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_63
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_64
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_65
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_66
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_67
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_68
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_69
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_7
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_71
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_710
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_711
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_72
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_73
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_74
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_75
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_76
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_77
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_78
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_79
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_8
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_81
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_82
+   optimized to 0
+LUT3 		XLXI_3/Mmux_Digit_83
+   optimized to 0
+GND 		XLXI_3/XST_GND
+VCC 		XLXI_3/XST_VCC
+FDE 		XLXI_4/ResTxStart/DInToggle
+   optimized to 0
+FD 		XLXI_4/ResTxStart/prevDIn
+   optimized to 0
+FD 		XLXI_4/ResTxStart/qDIn
+   optimized to 0
+GND 		XLXI_4/XST_GND
+VCC 		XLXI_4/XST_VCC
+LUT4 		XLXI_4/cntTx_or00001
+   optimized to 1
+FDRE 		XLXI_4/iTxBusy
+   optimized to 0
+LUT3 		XLXI_4/iTxBusy_and00001
+   optimized to 0
+INV 		XLXI_4/iTxBusy_inv1_INV_0
+FDE 		XLXI_4/inTxDI_0
+   optimized to 0
+FDE 		XLXI_4/inTxDI_1
+   optimized to 0
+FDE 		XLXI_4/inTxDI_2
+   optimized to 0
+FDE 		XLXI_4/inTxDI_3
+   optimized to 0
+FDE 		XLXI_4/inTxDI_4
+   optimized to 0
+FDE 		XLXI_4/inTxDI_5
+   optimized to 0
+FDE 		XLXI_4/inTxDI_6
+   optimized to 0
+FDE 		XLXI_4/inTxDI_7
+   optimized to 0
+LUT2 		XLXI_4/inTxDI_and00001
+   optimized to 0
+FDE 		XLXI_4/srTx_0
+   optimized to 1
+FDE 		XLXI_4/srTx_1
+   optimized to 1
+FDE 		XLXI_4/srTx_2
+   optimized to 1
+FDE 		XLXI_4/srTx_3
+   optimized to 1
+FDE 		XLXI_4/srTx_4
+   optimized to 1
+FDE 		XLXI_4/srTx_5
+   optimized to 1
+FDE 		XLXI_4/srTx_6
+   optimized to 1
+FDE 		XLXI_4/srTx_7
+   optimized to 1
+FDE 		XLXI_4/srTx_8
+   optimized to 1
+LUT4 		XLXI_4/srTx_mux0000<0>1
+   optimized to 1
+LUT3 		XLXI_4/srTx_mux0000<1>1
+   optimized to 1
+LUT3 		XLXI_4/srTx_mux0000<2>1
+   optimized to 1
+LUT3 		XLXI_4/srTx_mux0000<3>1
+   optimized to 1
+LUT3 		XLXI_4/srTx_mux0000<4>1
+   optimized to 1
+LUT3 		XLXI_4/srTx_mux0000<5>1
+   optimized to 1
+LUT3 		XLXI_4/srTx_mux0000<6>1
+   optimized to 1
+LUT3 		XLXI_4/srTx_mux0000<7>1
+   optimized to 1
+LUT4 		XLXI_4/srTx_mux0000<8>1
+   optimized to 1
+GND 		XST_GND
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Clk_50MHZ                          | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
+| Clk_Sys                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| LCD_D<0>                           | IOB              | OUTPUT    | LVCMOS33             |       | 4        | SLOW |              |          | 0 / 0    |
+| LCD_D<1>                           | IOB              | OUTPUT    | LVCMOS33             |       | 4        | SLOW |              |          | 0 / 0    |
+| LCD_D<2>                           | IOB              | OUTPUT    | LVCMOS33             |       | 4        | SLOW |              |          | 0 / 0    |
+| LCD_D<3>                           | IOB              | BIDIR     | LVCMOS33             |       | 4        | SLOW |              |          | 0 / 0    |
+| LCD_E                              | IOB              | OUTPUT    | LVCMOS33             |       | 4        | SLOW |              |          | 0 / 0    |
+| LCD_RS                             | IOB              | OUTPUT    | LVCMOS33             |       | 4        | SLOW |              |          | 0 / 0    |
+| LCD_RW                             | IOB              | OUTPUT    | LVCMOS33             |       | 4        | SLOW |              |          | 0 / 0    |
+| RS232_RxD                          | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
+| RS232_TxD                          | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW |              |          | 0 / 0    |
+| SF_CE                              | IOB              | OUTPUT    | LVCMOS33             |       | 4        | SLOW |              |          | 0 / 0    |
+| clr                                | IBUF             | INPUT     | LVTTL                |       |          |      |              | PULLDOWN | 0 / 0    |
+| we                                 | IBUF             | INPUT     | LVTTL                |       |          |      |              | PULLUP   | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

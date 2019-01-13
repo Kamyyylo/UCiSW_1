@@ -1,0 +1,2 @@
+vhdl work "ReverseCounter8Bit.vhd"
+vhdl work "CounterBit8ReverseSchema.vhf"

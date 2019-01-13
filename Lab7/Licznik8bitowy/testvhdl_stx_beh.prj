@@ -1,0 +1,2 @@
+vhdl isim_temp "ReverseCounter8Bit.vhd"
+vhdl isim_temp "Test8BitCounter.vhd"

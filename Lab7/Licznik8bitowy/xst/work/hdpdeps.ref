@@ -1,0 +1,16 @@
+V3 10
+FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.vhf" 2018/12/19.09:36:56 P.20131013
+EN work/CounterBit8ReverseSchema 1545213009 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CounterBit8ReverseSchema/BEHAVIORAL 1545213010 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/CounterBit8ReverseSchema.vhf" \
+      EN work/CounterBit8ReverseSchema 1545213009 CP licznik CP LCD1x64 CP RS232
+FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/ReverseCounter8Bit.vhd" 2018/12/19.10:49:48 P.20131013
+EN work/licznik 1545213007 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/ReverseCounter8Bit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/licznik/Behavioral 1545213008 \
+      FL "C:/Users/lab/Lab- Kamyszek-Szykulska/Lab7/Licznik8bitowy/ReverseCounter8Bit.vhd" \
+      EN work/licznik 1545213007
